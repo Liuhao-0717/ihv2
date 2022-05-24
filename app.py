@@ -72,12 +72,12 @@ if st.checkbox('好きな数字'):#菜单选数
       list(range(1,11))
   )
 
-  'あなたの好きな数字は、',option,'です。'
+  'あなたの好きな数字は',option,'です。'
 
 if st.checkbox('趣味'):#自己输入文字
   text = st.sidebar.text_input('あなたの趣味を教えてください',)
   #如果在st后面加上sidebar的话，输入栏会在页面左侧运行
-  'あなたの趣味は、',text,'です。'
+  'あなたの趣味は',text,'です。'
 
 if st.checkbox('調子'):#拉进度条
   condition = st.sidebar.slider('あなたの今の調子は？',0,100,50)
@@ -89,8 +89,8 @@ if st.checkbox('ボタン'):#按钮
   if button:
     right_column.write('ここは右カラム')
 if st.checkbox('問い合わせ'):#文字菜单
-  expander1 = st.expander('問い合わせ1')
-  expander1.write('問い合わせ1の回答')
+  expander1 = st.expander('')
+  expander1.write('')
   expander2 = st.expander('問い合わせ2')
   expander2.write('問い合わせ2の回答')
   expander3 = st.expander('問い合わせ3')
