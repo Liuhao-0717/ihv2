@@ -13,7 +13,7 @@ st.write('Display Image')
 
 st.sidebar.write('Interactive Widgets')
 
-st.write('プレグレスバーの表示')
+st.write('プレグレスバーの表示123')
 'Start!!'
 
 latest_iteration = st.empty()  #进度条
