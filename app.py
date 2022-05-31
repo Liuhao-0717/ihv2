@@ -1,5 +1,5 @@
 #如果在st后面加上sidebar的话，输入栏会在页面左侧运行
-%writefile app.py
+#%%writefile app.py
 from re import A
 import streamlit as st
 import numpy as np
